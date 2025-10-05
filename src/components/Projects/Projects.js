@@ -32,7 +32,7 @@ function Projects() {
               isBlog={false}
               title="Taskify"
               description="Used for increase the productivity and tracks your progress towards the your project or goal. It has a workspace features that means multiple people collobrate in one project. It has a features like create boards , add container in board and add task in container. Board member also add comment in perticular task and assign flag over that. "
-              link="https://github.com/MohitSojitra/taskify"
+              link="https://github.com/Anchalsharma432/taskify"
               liveLink="https://trallo-clone-mocha.vercel.app/"
             />
           </Col>
@@ -43,8 +43,8 @@ function Projects() {
               isBlog={false}
               title="easy-code"
               description="Easy code is my personal blog website which is build with nextjs. It has great support of the Markdown content. Easy-code is fully responsive blog website which has light and dark mode support."
-              link="https://github.com/MohitSojitra/easy-code"
-              liveLink="https://blog.mohitsojitra.tech/"
+              link="https://github.com/Anchalsharma432/easy-code"
+              liveLink="https://blog.Anchalsharma432.tech/"
             />
           </Col>
 
@@ -54,7 +54,7 @@ function Projects() {
               isBlog={false}
               title="Jsom Store"
               description="It is a basic e-commerce site which build in MERN tech stack. It has a features like login, signup as a part of authentication. Apart from that user add product in cart, modify quantity and also remove poduct in cart. It is a basic e-comerce site which build in pure html, css, reactjs and redux. You can watch live app in below button."
-              link="https://github.com/MohitSojitra/e-commerce-store"
+              link="https://github.com/Anchalsharma432/e-commerce-store"
               liveLink="https://e-commerce-fronend.vercel.app/"
             />
           </Col>
@@ -65,7 +65,7 @@ function Projects() {
               isBlog={false}
               title="Jsom Blog"
               description="It is a basic blog website which cover all the concept of REACTJS. Main Motivation of this project is understand basic features of the Reactjs like  api fetching, multiple filtering in profile , post and comments. It includes lots' of features which is necessary in any blog site. You can visit Live site by clicking below button."
-              link="https://github.com/MohitSojitra/react-blog-website"
+              link="https://github.com/Anchalsharma432/react-blog-website"
               liveLink="https://react-blog-website.vercel.app/"
             />
           </Col>
@@ -77,7 +77,7 @@ function Projects() {
               title="Artistee Web"
               description="Aristee is a basic Full Stack websites which contains all the module such as a Admin Panel , Fronend Website and Backend. It inspired by united talent websites which is a use for book Artist for performing live shows
                             In here i used mainly aws services for handling backend things such as Amazon RDS for database, Amazon SES sercvice for mail perpose and S3 for storing images."
-              link="https://github.com/MohitSojitra/Artistee"
+              link="https://github.com/Anchalsharma432/Artistee"
               liveLink="https://artistee-fronend.vercel.app/"
             />
           </Col>
@@ -89,7 +89,7 @@ function Projects() {
               title="Artistee Admin Pannel"
               description="Aristee is a basic Full Stack websites which contains all the module such as a Admin Panel , Fronend Website and Backend. It inspired by united talent websites which is a use for book Artist for performing live shows
                             In here i used mainly aws services for handling backend things such as Amazon RDS for database, Amazon SES sercvice for mail perpose and S3 for storing images."
-              link="https://github.com/MohitSojitra/Artistee"
+              link="https://github.com/Anchalsharma432/Artistee"
               liveLink="https://artistee-admin.vercel.app/"
             />
           </Col>

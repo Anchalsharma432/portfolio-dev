@@ -1,30 +1,84 @@
-import React from "react";
-// import GitHubCalendar from "react-github-calendar";
-import GitHubCalendar from "react-github-contribution-calendar";
+import React, { useEffect, useState } from "react";
+import ActivityCalendar from "react-activity-calendar";
+import axios from "axios";
 import { Row } from "react-bootstrap";
-const mockContributions = {
-  "2025-10-01": 2,
-  "2025-10-02": 1,
-  "2025-10-03": 3,
-};
+
 function Github() {
+  const [data, setData] = useState([]);
+  const username = "Anchalsharma432"; // your GitHub username
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await axios.post(
+          "https://api.github.com/graphql",
+          {
+            query: `
+              query {
+                user(login: "${username}") {
+                  contributionsCollection {
+                    contributionCalendar {
+                      weeks {
+                        contributionDays {
+                          date
+                          contributionCount
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            `,
+          },
+          {
+            headers: {
+              Authorization: `Bearer ${process.env.REACT_APP_GITHUB_TOKEN}`,
+            },
+          }
+        );
+
+        const weeks =
+          response.data.data.user.contributionsCollection.contributionCalendar
+            .weeks;
+
+        const flattened = weeks.flatMap((week) =>
+          week.contributionDays.map((day) => ({
+            date: day.date,
+            count: day.contributionCount,
+            level: Math.min(day.contributionCount, 4),
+          }))
+        );
+
+        setData(flattened);
+      } catch (err) {
+        console.error("GitHub API error:", err);
+      }
+    };
+
+    fetchData();
+  }, [username]);
+
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
       <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
         Days I <strong className="purple">Code</strong>
       </h1>
 
-      <GitHubCalendar 
-        username="Anchalsharma432"
-        contributions={mockContributions}
-        blockSize={15}
-        blockMargin={5}
-        theme={{
-          light: ["#ecd9fc", "#c084f5", "#b265f6", "#b22ff4", "#8400b8"],
-          dark: ["#8400b8", "#b22ff4", "#b265f6", "#c084f5", "#ecd9fc"],
-        }}
-        fontSize={16}
-      />
+      {data.length > 0 ? (
+        <ActivityCalendar
+          data={data}
+          colorScheme="dark"
+          theme={{
+            light: ["#ebedf0", "#216e39"],
+            dark: ["#161b22", "#39d353"],
+          }}
+          labels={{
+            totalCount: "Total contributions",
+          }}
+        />
+      ) : (
+        <p style={{ color: "#aaa" }}>Loading your contributions...</p>
+      )}
     </Row>
   );
 }

@@ -1,8 +1,6 @@
 
 ## Built With
 
-My personal portfolio <a href="https://portfolio-mohitsojitra.vercel.app/" target="_blank">mohitsojitra</a> which features some of my github projects as well as my resume and technical skills.<br/>
-
 This project was built using these technologies.
 
 - React.js
@@ -30,7 +28,5 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.
 
-
-### If You Like give ⭐
 
 
