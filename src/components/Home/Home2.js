@@ -1,9 +1,9 @@
 import React from 'react'
-import {Container, Row, Col} from 'react-bootstrap'
+import { Container, Row, Col } from 'react-bootstrap'
 import myImg from '../../Assets/avatar.svg'
 import Tilt from 'react-parallax-tilt'
-import {AiFillGithub, AiOutlineTwitter, AiFillInstagram} from 'react-icons/ai'
-import {FaLinkedinIn} from 'react-icons/fa'
+import { AiFillGithub, AiOutlineTwitter, AiFillInstagram } from 'react-icons/ai'
+import { FaLinkedinIn } from 'react-icons/fa'
 
 function Home2() {
   return (
@@ -11,40 +11,28 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{fontSize: '2.6em'}}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+            <h1 style={{ fontSize: '2.6em' }}>
+              LET ME <span className="purple">INTRODUCE</span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              Hello! I'm a <b className="purple">Full Stack Developer</b> with 3+ years of experience crafting high-performance web and mobile applications. 🚀
               <br />
-              <br />I am fluent in classics like
+              <br />
+              I specialize in building robust applications using
               <i>
-                <b className="purple"> C++, Javascript and Python. </b>
+                <b className="purple"> React.js, Next.js, Node.js, Express, and Flutter</b>
               </i>
+              , combined with cloud deployments on <b className="purple">AWS, GCP, and Azure</b>.
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My passion lies in creating scalable, secure, and user-friendly products, from responsive web apps to cross-platform mobile experiences. I thrive on solving complex problems with
               <i>
-                <b className="purple">
-                  Web Technologies, Application developement and Products{' '}
-                </b>{' '}
-                and also in areas related to <b className="purple">Clouds.</b>
+                <b className="purple"> modern frameworks and cutting-edge technologies</b>
               </i>
+              .
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {' '}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              When I’m not coding, I enjoy optimizing workflows, automating processes, and exploring <b className="purple">cloud architectures</b> to deliver seamless, high-quality solutions.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -55,9 +43,9 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
+            <h1>CONNECT WITH ME</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              Feel free to <span className="purple">reach out</span> and say hello!
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
@@ -65,7 +53,7 @@ function Home2() {
                   href="https://github.com/Anchalsharma432"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <AiFillGithub />
                 </a>
@@ -76,7 +64,7 @@ function Home2() {
                   href="https://www.linkedin.com/in/anchal-sharma-vatts/"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <FaLinkedinIn />
                 </a>
@@ -88,4 +76,5 @@ function Home2() {
     </Container>
   )
 }
+
 export default Home2
