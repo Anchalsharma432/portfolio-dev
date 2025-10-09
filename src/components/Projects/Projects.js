@@ -30,10 +30,10 @@ function Projects() {
             <ProjectCard
               imgPath={taskify}
               isBlog={false}
-              title="Taskify"
-              description="Used for increase the productivity and tracks your progress towards the your project or goal. It has a workspace features that means multiple people collobrate in one project. It has a features like create boards , add container in board and add task in container. Board member also add comment in perticular task and assign flag over that. "
-              link="https://github.com/Anchalsharma432/taskify"
-              liveLink="https://trallo-clone-mocha.vercel.app/"
+              title="Airline Ticket Booking"
+              description="A responsive Airline Ticket Booking web application developed using HTML, CSS, and JavaScript. It allows users to search and view available flights, manage basic booking details, and store user data using Session Storage and Cookies. The project focuses on creating an interactive and realistic flight booking experience entirely on the frontend."
+              link="https://github.com/Anchalsharma432/Airline-Ticket-Booking"
+              liveLink="https://airline-ticket-booking-eight.vercel.app/"
             />
           </Col>
 
@@ -41,9 +41,9 @@ function Projects() {
             <ProjectCard
               imgPath={easyCode}
               isBlog={false}
-              title="easy-code"
-              description="Easy code is my personal blog website which is build with nextjs. It has great support of the Markdown content. Easy-code is fully responsive blog website which has light and dark mode support."
-              link="https://github.com/Anchalsharma432/easy-code"
+              title="React Docker App"
+              description="A lightweight React application containerized using Docker for easy deployment and scalability. Built with Node.js and npm, it demonstrates how to build, run, and serve a React project inside a Docker container. The setup ensures consistent performance across environments and simplifies the development-to-production workflow."
+              link="https://github.com/Anchalsharma432/react-docker-app"
               liveLink="https://blog.Anchalsharma432.tech/"
             />
           </Col>
@@ -52,9 +52,9 @@ function Projects() {
             <ProjectCard
               imgPath={eCom}
               isBlog={false}
-              title="Jsom Store"
-              description="It is a basic e-commerce site which build in MERN tech stack. It has a features like login, signup as a part of authentication. Apart from that user add product in cart, modify quantity and also remove poduct in cart. It is a basic e-comerce site which build in pure html, css, reactjs and redux. You can watch live app in below button."
-              link="https://github.com/Anchalsharma432/e-commerce-store"
+              title="Smart TV Shop"
+              description="A full-stack Smart TV Ecommerce Website built with the MERN stack. It enables users to browse, search, and purchase TVs online with JWT authentication, shopping cart, wishlist, and Stripe payment integration. Includes an admin panel, Cloudinary image uploads, and a responsive design for a smooth shopping experience."
+              link="https://github.com/Anchalsharma432/smartTV-shop"
               liveLink="https://e-commerce-fronend.vercel.app/"
             />
           </Col>
@@ -63,9 +63,9 @@ function Projects() {
             <ProjectCard
               imgPath={jsomBlog}
               isBlog={false}
-              title="Jsom Blog"
-              description="It is a basic blog website which cover all the concept of REACTJS. Main Motivation of this project is understand basic features of the Reactjs like  api fetching, multiple filtering in profile , post and comments. It includes lots' of features which is necessary in any blog site. You can visit Live site by clicking below button."
-              link="https://github.com/Anchalsharma432/react-blog-website"
+              title="Hotel Booking Management"
+              description="A fully functional Hotel Room Booking Management System built using C# and .NET. It includes features like user login and signup, hotel gallery view, room booking, checkout page with dummy payment integration and more features. The system provides an interactive interface for managing bookings and enhances the overall hotel reservation experience."
+              link="https://github.com/Anchalsharma432/Hotel-Room-Booking"
               liveLink="https://react-blog-website.vercel.app/"
             />
           </Col>
@@ -74,15 +74,14 @@ function Projects() {
             <ProjectCard
               imgPath={aF}
               isBlog={false}
-              title="Artistee Web"
-              description="Aristee is a basic Full Stack websites which contains all the module such as a Admin Panel , Fronend Website and Backend. It inspired by united talent websites which is a use for book Artist for performing live shows
-                            In here i used mainly aws services for handling backend things such as Amazon RDS for database, Amazon SES sercvice for mail perpose and S3 for storing images."
-              link="https://github.com/Anchalsharma432/Artistee"
+              title="Pin To Plane"
+              description="A modern cleaning services platform built with Next.js and Tailwind CSS. Users can submit service requests via a real-time contact form with email confirmations, while enjoying a fully responsive, interactive interface for a seamless browsing experience across devices. Includes smooth animations and intuitive UI components to enhance user engagement."
+              link="https://github.com/Anchalsharma432/PinToPlane"
               liveLink="https://artistee-fronend.vercel.app/"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={aA}
               isBlog={false}
@@ -92,7 +91,7 @@ function Projects() {
               link="https://github.com/Anchalsharma432/Artistee"
               liveLink="https://artistee-admin.vercel.app/"
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>

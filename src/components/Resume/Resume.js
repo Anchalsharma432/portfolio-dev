@@ -25,54 +25,61 @@ function Resume() {
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
-              title="Full Stack developer [Shree Themes]"
-              date="April 2021 - present"
+              title="Software Developer Intern - TRAVELTICAL INC."
+              date="September 2025 - present"
               content={[
-                "Learned and experiment with React Native, Aws cloud services like S3, Amplify, App Sync, RDS, GraphQl and DynamoDb.",
-                "Build Full Social media and tinder type Application for LGBTQ+ people.",
+                "	Developed and deployed responsive web applications using React, Next.js, and Tailwind CSS, improving load times and user engagement by 35%.",
+                "	Engineered scalable RESTful APIs with Node.js, Express, and TypeORM (MySQL), optimizing database queries and reducing response latency by 25%.",
+                "	Built cross-platform mobile components in Flutter, accelerating feature rollout and ensuring consistent UI across devices.",
+                "	Automated CI/CD workflows with GitHub Actions and Docker, reducing deployment time by 50% and improving release reliability.",
               ]}
             />
+
             <Resumecontent
-              title="Full Stack developer [Zujo]"
-              date="June 2020 - April 2021"
+              title="Software developer - PATIENTBOND PVT. LTD."
+              date="January 2022 - January 2024"
               content={[
-                "Learned and experiment with Aws cloud services like S3, EC2, DynamoDb with Typescript, Nodejs, Graphql, as a backend technology and React, RelayJs, Material UI and Next.js as a frontend technology.",
-                "Build Full Online Learning Plateform which has servel feature like live streaming with real time chat, uploading courses, videos, track watch time etc.",
-              ]}
-            />
-            <h3 className="resume-title">Extracurricular Activities</h3>
-            <Resumecontent
-              title="Technical Lead [Girlscript Surat]"
-              date="March 2020 - present"
-              content={[
-                "As a Part of Community, we arrange lots of event,Like HackerRank contest,ReactJS Live session and lots of other stuff.",
-              ]}
-            />
-            <Resumecontent
-              title="Microsoft Learn Student Ambassador"
-              date="Sep 2019 - March 2021"
-              content={[
-                "Under the Microsoft Learn Student Ambassadors programme, I started my cloud journey and learn basics of azure and i hosted several events Like hosting github session, Benifits of open source programme and and its community and much more.",
+                "•	Built a scalable healthcare appointment management platform using the C# .net framework, increasing patient engagement and digital bookings by 45%.",
+                "	Architected microservices-based backend systems to decouple services and boost performance, enabling 30% faster feature deployment across multiple healthcare modules.",
+                "	Integrated Firebase real-time database and automated notification workflows, reducing appointment conflicts and missed bookings by 40%.",
+                "	Implemented end-to-end HIPAA-compliant security, including JWT authentication, data encryption, and audit logging, ensuring secure and compliant handling of sensitive patient data.",
               ]}
             />
           </Col>
           <Col md={6} className="resume-right">
             <h3 className="resume-title">Education</h3>
             <Resumecontent
-              title="Computer Science and Engineering [R.N.G.P.I.T] "
-              date="2017 - 2021"
+              title="Post Graduate in Full-Stack Development"
+              date="2024 - 2025"
               content={[
-                `CGPA: 9.00/10 `,
-                "I was complete my bachelor degree fron R.N.G Patel Institute of Technology.",
+                `GPA: 3.40/4 `,
+                "LAMBTON COLLEGE, Mississauga, ON, Canada.",
+              ]}
+            />
+            <Resumecontent
+              title="Bachelor of Engineering in Computer Science"
+              date="2019 - 2023"
+              content={[
+                `CGPA: 9.78/10 `,
+                "Graduated from CHITKARA UNIVERSITY, Punjab, India.",
               ]}
             />
 
-            <h3 className="resume-title">Ranks and Achivements</h3>
+            <h3 className="resume-title">Extracurricular Activities</h3>
             <Resumecontent
-              title=""
+              title="Hacker in Bramhacks, Brampton"
+              date="November 2024"
               content={[
-                `Top 40 of IngineousHunt contest winner and get 16GB pandrive.`,
-                `2nd rank in college elocution competition.`,
+                "Achieved 4th place in a 24-hour hackathon by developing an innovative and reliable solution for Brampton Transit.",
+              ]}
+            />
+            <Resumecontent
+              title="Volunteer at Hack the North, Waterloo"
+              date="November 2024"
+              content={[
+                "Assisted in event operations and logistics.",
+                "Engaged with sponsors and participants to ensure smooth event flow and support.",
+                "Collaborated with fellow volunteers to manage tasks and enhance attendee experience.",
               ]}
             />
           </Col>
