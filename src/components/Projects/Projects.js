@@ -77,7 +77,7 @@ function Projects() {
               title="Pin To Plane"
               description="A modern cleaning services platform built with Next.js and Tailwind CSS. Users can submit service requests via a real-time contact form with email confirmations, while enjoying a fully responsive, interactive interface for a seamless browsing experience across devices. Includes smooth animations and intuitive UI components to enhance user engagement."
               link="https://github.com/Anchalsharma432/PinToPlane"
-              liveLink="https://artistee-fronend.vercel.app/"
+              liveLink="https://pin-to-plane.onrender.com"
             />
           </Col>
 
