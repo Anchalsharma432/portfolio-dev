@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.01db12a8.css",
+    "main.js": "/static/js/main.480c17d1.js",
+    "static/js/422.8b16a534.chunk.js": "/static/js/422.8b16a534.chunk.js",
+    "static/media/E-com.png": "/static/media/E-com.652bd011f280ef9ca665.png",
+    "static/media/easy-code.png": "/static/media/easy-code.d399bb77712bb35103b7.png",
+    "static/media/artisteeF.png": "/static/media/artisteeF.1f84ada010a095c0c39c.png",
+    "static/media/home-main.svg": "/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
+    "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/artisteeA.png": "/static/media/artisteeA.3e9d3b9199f7ec4549cd.png",
+    "static/media/jsomBlog.png": "/static/media/jsomBlog.94e64b2da457909bf52d.png",
+    "static/media/Fullstack_Developer_Resume.pdf": "/static/media/Fullstack_Developer_Resume.4deceb65a09c275c69e9.pdf",
+    "static/media/Taskify.png": "/static/media/Taskify.c01e7b8573bcb4475ea3.png",
+    "service-worker.js": "/service-worker.js",
+    "static/media/avatar.svg": "/static/media/avatar.5852f40fbb38aa284829fa3fb7722225.svg",
+    "index.html": "/index.html",
+    "main.01db12a8.css.map": "/static/css/main.01db12a8.css.map",
+    "main.480c17d1.js.map": "/static/js/main.480c17d1.js.map",
+    "422.8b16a534.chunk.js.map": "/static/js/422.8b16a534.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01db12a8.css",
+    "static/js/main.480c17d1.js"
+  ]
+}
